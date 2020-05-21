@@ -1,15 +1,18 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout/layout";
+import Head from 'next/head';
+import Layout, { siteTitle } from '../components/layout/layout';
+import { FunctionComponent } from 'react';
 
-const Home = () => (
-  <Layout>
+const Home: FunctionComponent = () => (
+  // <div className="container">
+  <div>
     <Head>
       <title>{siteTitle}</title>
     </Head>
-    <section>
+    <header>
       <h1>Hello world!</h1>
-    </section>
-  </Layout>
+    </header>
+    <Layout home>Children</Layout>
+  </div>
 );
 
 export default Home;
