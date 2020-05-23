@@ -21,10 +21,15 @@
   },
   "homepage": "https://github.com/Zitric/clock-side-rendered#readme",
   "dependencies": {
+    "@types/node": "^14.0.5",
     "next": "^9.4.0",
+    "particles.js": "^2.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "sass": "^1.26.5"
+    "react-particles-js": "^3.2.1",
+    "react-tsparticles": "^1.14.6",
+    "sass": "^1.26.5",
+    "tsparticles": "^1.14.3"
   },
   "devDependencies": {
     "@types/react": "^16.9.35",
