@@ -1,5 +1,9 @@
+import { FunctionComponent } from 'react';
+import { LayoutProps } from '../../@types/layoutProps.type';
 export const siteTitle = 'Julian Palomo';
 
-const Layout = ({ children, home }) => <section>{children}</section>;
+const Layout: FunctionComponent = ({ children, home }: LayoutProps) => (
+  <section>{children}</section>
+);
 
 export default Layout;
