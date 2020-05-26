@@ -7,11 +7,11 @@ class CustomDocument extends Document {
       <Html lang="en">
         <Head>
           <link rel="icon" href="/favicon.ico" />
-          <script src="https://cdn.rawgit.com/progers/pathseg/master/pathseg.js"></script>
         </Head>
         <body>
           <Main />
           <NextScript />
+          <script src="tsparticles.min.js"></script>
         </body>
       </Html>
     );
